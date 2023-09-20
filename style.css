@@ -1,0 +1,142 @@
+.hero-stack {
+    /* background-color: #3c006a; */
+    background-image: linear-gradient(#7300cb,#3c006a);
+    /* border-bottom: 1px solid #e4ebf3; */
+    padding: 30px 30px; 
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-stack {
+      padding: 60px 15px;
+    }
+}
+
+.container-2 {
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #3c006a; */
+}
+
+@media screen and (max-width: 991px) {
+    .container-2 {
+      max-width: 728px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .container-2 {
+      max-width: none;
+    }
+  
+    .margin-bottom-24px {
+      color: #3c006a;
+      font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+      font-weight: 400;
+    }
+  
+    .quick-stack {
+      margin-top: -18px;
+    }
+}
+
+.hero-wrapper-two {
+    max-width: 750px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:400%;
+    text-align: center;
+}
+
+.margin-bottom-24px {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif   ;
+    font-size: 150%;
+}
+
+#w-node-_2fde4ae0-e232-c4e9-5e1a-bcd93bb9f83c-7d5fd538 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.w-layout-layout {
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    padding: 20px;
+}
+
+.wf-layout-layout {
+    display: grid;
+}
+
+.w-layout-cell {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.logo {
+    border: 5px solid #ffffff;
+    border-radius:13%;
+    max-width: 50% !important;
+    height: auto;
+}
+
+html{
+    background-color: #3c006a;
+}
+
+/* Added Responsive Styles */
+
+/* Responsive Hero Section */
+.hero-stack {
+    padding: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-stack {
+        padding: 20px;
+    }
+}
+
+/* Responsive Container */
+.container-2 {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 991px) {
+    .container-2 {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-2 {
+        max-width: 540px;
+    }
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
